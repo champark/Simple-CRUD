@@ -14,3 +14,13 @@ spring:
     driver-class-name: org.h2.Driver
     username: sa
     password:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/   # JSP 파일 경로
+      suffix: .jsp            # JSP 파일 확장자
+  web:
+    resources:
+      cache:
+        period: 0
+      chain:
+        cache: false
