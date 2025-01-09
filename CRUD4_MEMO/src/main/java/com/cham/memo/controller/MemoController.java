@@ -18,9 +18,9 @@ public class MemoController {
         this.memoService = memoService;
     }
 
-    @GetMapping("/index")
+    @GetMapping("/home")
     public String toIndex() {
-        return "index";
+        return "home";
     }
 
     @GetMapping("/memos/list")
